@@ -21,7 +21,7 @@ export default class Stack<T> {
             this.head = newNode
             return
         }
-        
+
         newNode.previous = this.head
         this.head = newNode
     }
